@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Exo", sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    background: none;
+    border: none;
+}
+
+.diamond {
+    color: #dd780b;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-nav {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-light {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.navbar-brand {
+    background-color: transparent !important;
+}
+
+/* Home */
+
+#home {
+    background-attachment: fixed;
+    background-image: url("/assets/images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-info {
+    padding-top: 30vh;
+    padding-left: 10vw;
+}
+
+.home-info h1, h4 {
+    font-family: "Exo", sans-serif;
+}
+
+.home-info h4 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.home-info h1 {
+    font-size: 65px;
+    font-weight: 300;
+}
+
+/* About */
+
+#about {
+    background: #fafafa;
+    width: 100%;
+}
+
+.about-info {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about-info p {
+    width: 50%;
+    padding-left: 70px;
+}
+
+/* portfolio */
+
+#portfolio {
+    background-attachment: fixed;
+    background-image: url("/assets/images/portfolio.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.portfolio-info {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.work {
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+
+.card {
+    padding-top: 15px;
+}
+
+@media (max-width: 992px) {
+    
+}
+
+/* Skills */
+
+#skills {
+    background-color: #e7e7e7;
+}
+
+.skills-info {
+    background-color: #e7e7e7;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+.skills-info p {
+    color: #dd780b;
+    padding-left: 70px;
+}
+
+.skills-info span {
+    color: #000;
+}
+
+/* Contact */
+
+#contact {
+    background-attachment: fixed;
+    background-image: url("/assets/images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
